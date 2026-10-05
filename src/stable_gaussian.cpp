@@ -111,4 +111,3 @@ double mes_stable_loglik(const arma::mat& beta, const arma::mat& se2,
   if (!std::isfinite(value)) Rcpp::stop("Nonfinite MESuSiE likelihood");
   return value;
 }
-

@@ -159,4 +159,3 @@ Rcpp::List mes_covariance_em(const arma::mat& beta, const arma::mat& se2,
   return Rcpp::List::create(Rcpp::Named("V")=V,Rcpp::Named("objective")=-objective,
                            Rcpp::Named("iterations")=iteration+1,Rcpp::Named("status")=status);
 }
-
